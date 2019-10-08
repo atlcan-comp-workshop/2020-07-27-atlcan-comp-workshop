@@ -2,18 +2,18 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").
                       # Be sure to update the Carpentry type in _config.yml as well.
-venue: "Lawrence Berkeley National Laboratory"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "1 Cyclotron Rd, Berkeley, CA 94720, USA"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+venue: "University of Victoria"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "3800 Finnerty Rd, Victoria, BC, Canada V8P 5C2"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-latlng: "37.8759,-122.2500"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Aug 19-23, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 AM - 6:00 PM"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2019-08-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2019-08-23        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Dan Guest","Matthew Feickert","Giordon Stark","Danika MacDonnel","Henry Schreiner","Karol Krizka","Kelly Rowland","Kunal Marwaha"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Shih Chieh Hsu","Zachary Marshall","Nils Krumnack","Samuel Meehan","Adam Parker"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["samuel.meehan@cern.ch"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+latlng: "48.462623, -123.310004"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+humandate: "Oct 21 and 24, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "10:00 AM - 2:00 PM (Oct. 21), 11:00 AM - 3:00 PM (Oct. 24)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: "2019-10-21"      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: "2019-10-24"        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Danika MacDonell"]
+#helper: ["Shih Chieh Hsu","Zachary Marshall","Nils Krumnack","Samuel Meehan","Adam Parker"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["danikam1@uvic.ca"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -138,31 +138,6 @@ CODE OF CONDUCT
 <strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
 </p>
 
-
-{% comment %}
-ACCESSIBILITY
-
-Modify the block below if there are any barriers to accessibility or
-special instructions.
-{% endcomment %}
-<p id="accessibility">
-  <strong>Accessibility:</strong> We are committed to making this workshop
-  accessible to everybody.
-  The workshop organizers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-<p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
-</p>
-
 {% comment %}
 CONTACT EMAIL ADDRESS
 
@@ -187,55 +162,6 @@ Display the contact email address set in the configuration file.
   {% endif %}
   for more information.
 
-
-{% comment %}
-INDICO
-{% endcomment %}
-<p id="indico">
-  <strong>Indico</strong>: In addition to this workshop page, more information and scheduling can be found on
-  the indico event page - <a href="https://indico.cern.ch/event/816946/">https://indico.cern.ch/event/816946/</a>.
-</p>
-
-{% comment %}
-EGROUP
-{% endcomment %}
-<p id="communication">
-  <strong>EGroup</strong>: Subscribe and communicate using the email list <em>usatlas-computing-bootcamp-2019@cern.ch</em> egroup - <a href="https://e-groups.cern.ch/e-groups/EgroupsSearch.do">Subscribe Here</a>.
-</p>
-
-{% comment %}
-MATTERMOST
-{% endcomment %}
-<p id="communication">
-  <strong>Mattermost</strong>: Group discussion can also occur dynamically using the Mattermost application - <a href="https://mattermost.web.cern.ch/signup_user_complete/?id=qp87x1fco7rj88k44rjhgmmube">Mattermost Invite Link</a>.
-</p>
-
-
-
-
-
-
-
-
-<hr/>
-
-{% comment %}
-SURVEYS - DO NOT EDIT SURVEY LINKS
-{% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %}
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "dc" %}
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "lc" %}
-<p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% endif %}
-
-<hr/>
 
 
 {% comment %}
