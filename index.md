@@ -131,13 +131,6 @@ Modify the block below if there are any special requirements.
   <a href="https://opensource.com/article/18/5/dual-boot-linux">follow these instructions</a>.  </strong></em>
 </p>
 
-{% comment%}
-CODE OF CONDUCT
-{% endcomment %}
-<p id="code-of-conduct">
-<strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
-</p>
-
 {% comment %}
 CONTACT EMAIL ADDRESS
 
@@ -199,7 +192,8 @@ e.g., '2015-06-10-esu'.
 
 <hr/>
 
-{% comment %}
+
+<!--{% comment %}
 SYLLABUS
 
 Show what topics will be covered.
@@ -225,6 +219,7 @@ please preview your site before committing, and make sure to run
 {% elsif page.carpentry == "lc" %}
 {% include lc/syllabus.html %}
 {% endif %}
+-->
 
 <hr/>
 
@@ -580,13 +575,12 @@ please preview your site before committing, and make sure to run
     <a href="https://www.docker.com/">Docker</a> is a powerful tool that allows you
     to perform a virtualization of your environment but completely in software.  It
     allows you to bundle up the installation of tools for use by others in a uniform way
-    and we will be using it throughout this bootcamp.  Installing docker is absolutely
+    and we will be using it throughout the tutorial.  Installing docker is absolutely
     necessary and there are directions to do this in each operating system.  For those
     of you that are using a Windows operating system, if you already have docker running
     and are comfortable using it, that is fine.  However, if you do not, then be aware
-    that its usage on Windows can be challenging and none of the tutors know how to use
-    such a setup.  Therefore, <strong>we highly reccomend that you reconsider
-    your decision to use the Windows operating system as a high energy physicist.</strong>
+    that its usage on Windows can be challenging and the instructor may not be able to
+    help with setting it up during the tutorial. 
   </p>
 
 <div id="DockerOS"> {% comment %} Start of 'DockerOS' section. {% endcomment %}
