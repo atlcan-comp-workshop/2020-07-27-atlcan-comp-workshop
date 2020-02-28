@@ -131,6 +131,40 @@ Modify the block below if there are any special requirements.
   <a href="https://opensource.com/article/18/5/dual-boot-linux">follow these instructions</a>.  </strong></em>
 </p>
 
+{% comment%}
+CODE OF CONDUCT
+{% endcomment %}
+<p id="code-of-conduct">
+<strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+</p>
+
+
+{% comment %}
+ACCESSIBILITY
+
+Modify the block below if there are any barriers to accessibility or
+special instructions.
+{% endcomment %}
+<p id="accessibility">
+<strong>Accessibility:</strong> We are committed to making this workshop
+accessible to everybody.
+The workshop organizers have checked that:
+</p>
+<ul>
+<li>The room is wheelchair / scooter accessible.</li>
+<li>Accessible restrooms are available.</li>
+</ul>
+<p>
+If we can help making learning easier for
+you (e.g. sign-language interpreters, lactation facilities) please
+get in touch (using contact details below) and we will
+attempt to provide them. 
+</p>
+
+<p>
+If you are interested in attending the workshop but unable to due to a lack of funds, you can contact us with details of your funding requirements and we may be able to provide some assistance on a case-by-case basis. 
+</p>
+
 {% comment %}
 CONTACT EMAIL ADDRESS
 
