@@ -162,7 +162,7 @@ attempt to provide them.
 </p>
 
 <p>
-If you are interested in attending the workshop but unable to due to a lack of funds, you can contact us with details of your funding requirements and we may be able to provide some assistance on a case-by-case basis. 
+If you are interested in attending the workshop but unable to due to a lack of funds, contact us with details of your funding requirements and we may be able to provide some assistance on a case-by-case basis. 
 </p>
 
 {% comment %}
