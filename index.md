@@ -133,11 +133,10 @@ Modify the block below if there are any special requirements.
 
 {% comment%}
 CODE OF CONDUCT
-{% endcomment %}
 <p id="code-of-conduct">
 <strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
 </p>
-
+{% endcomment %}
 
 {% comment %}
 ACCESSIBILITY
@@ -161,9 +160,11 @@ get in touch (using contact details below) and we will
 attempt to provide them. 
 </p>
 
+{% comment%}
 <p>
 If you are interested in attending the workshop but unable to due to a lack of funds, contact us with details of your funding requirements and we may be able to provide some assistance on a case-by-case basis. 
 </p>
+{% endcomment %}
 
 {% comment %}
 CONTACT EMAIL ADDRESS
